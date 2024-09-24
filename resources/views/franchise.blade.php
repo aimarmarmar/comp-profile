@@ -46,39 +46,37 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Franchise 1 -->
                 <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                    <img src="/images/franchise_a.jpg" alt="Kemitraan A" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-customPurple">Kemitraan A</h3>
-                        <p class="text-lg text-customPurple font-bold mb-4">Rp 50,000,000</p>
-                        <h4 class="text-left font-bold text-gray-700">Manfaat:</h4>
-                        <ul class="list-disc list-inside text-left text-gray-600 mb-4">
+                    <img src="/images/franchise_c.jpg" alt="Kemitraan C" class="w-full h-48 object-cover">
+                    <div class="p-6 bg-customBlue">
+                        <h3 class="text-xl font-bold text-white">Kemitraan A</h3>
+                        <p class="text-lg text-white font-bold mb-4">Rp 10,000,000</p>
+                        <h4 class="text-left font-bold text-white">Manfaat:</h4>
+                        <ul class="list-disc list-inside text-left text-white mb-4">
                             <li>Paket alat dan peralatan</li>
                             <li>Stand atau gerobak</li>
                             <li>Bahan baku awal</li>
-                            <li>Program pelatihan</li>
-                            <li>Dukungan pemasaran</li>
+                            <li>Pelatihan lanjutan</li>
                         </ul>
                         <a href="#"
-                            class="block mt-4 px-8 py-2 bg-customPurple text-white rounded-md shadow hover:bg-purple-600 transition duration-150 ease-in-out">Daftar Kemitraan</a>
+                            class="block mt-4 px-8 py-2 bg-customPink text-white rounded-md shadow hover:bg-purple-600 transition duration-150 ease-in-out">Daftar Kemitraan</a>
                     </div>
                 </div>
 
                 <!-- Franchise 2 -->
                 <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                    <img src="/images/franchise_b.jpg" alt="Kemitraan B" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-customPurple">Kemitraan B</h3>
-                        <p class="text-lg text-customPurple font-bold mb-4">Rp 75,000,000</p>
-                        <h4 class="text-left font-bold text-gray-700">Manfaat:</h4>
-                        <ul class="list-disc list-inside text-left text-gray-600 mb-4">
+                    <img src="/images/franchise_c.jpg" alt="Kemitraan C" class="w-full h-48 object-cover">
+                    <div class="p-6 bg-customBlue">
+                        <h3 class="text-xl font-bold text-white">Kemitraan B</h3>
+                        <p class="text-lg text-white font-bold mb-4">Rp 5,000,000</p>
+                        <h4 class="text-left font-bold text-white">Manfaat:</h4>
+                        <ul class="list-disc list-inside text-left text-white mb-4">
                             <li>Paket alat dan peralatan</li>
                             <li>Stand atau gerobak</li>
                             <li>Bahan baku awal</li>
-                            <li>Dukungan lokasi</li>
-                            <li>Pelatihan staf</li>
+                            <li>Pelatihan lanjutan</li>
                         </ul>
                         <a href="#"
-                            class="block mt-4 px-8 py-2 bg-customPurple text-white rounded-md shadow hover:bg-purple-600 transition duration-150 ease-in-out">Daftar Kemitraan</a>
+                            class="block mt-4 px-8 py-2 bg-customPink text-white rounded-md shadow hover:bg-purple-600 transition duration-150 ease-in-out">Daftar Kemitraan</a>
                     </div>
                 </div>
 
@@ -87,13 +85,12 @@
                     <img src="/images/franchise_c.jpg" alt="Kemitraan C" class="w-full h-48 object-cover">
                     <div class="p-6 bg-customBlue">
                         <h3 class="text-xl font-bold text-white">Kemitraan C</h3>
-                        <p class="text-lg text-white font-bold mb-4">Rp 100,000,000</p>
+                        <p class="text-lg text-white font-bold mb-4">Rp 7,500,000</p>
                         <h4 class="text-left font-bold text-white">Manfaat:</h4>
                         <ul class="list-disc list-inside text-left text-white mb-4">
                             <li>Paket alat dan peralatan</li>
                             <li>Stand atau gerobak</li>
                             <li>Bahan baku awal</li>
-                            <li>Wilayah eksklusif</li>
                             <li>Pelatihan lanjutan</li>
                         </ul>
                         <a href="#"

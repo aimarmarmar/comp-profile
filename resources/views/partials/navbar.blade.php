@@ -23,7 +23,7 @@
                     <div class="hidden sm:ml-6 sm:block">
                         <div class="flex space-x-4">
                             <!-- Links -->
-                            <a href="/" class="rounded-md bg-customPurple px-3 py-2 text-sm font-medium text-white" aria-current="page">Home</a>
+                            <a href="/" class="rounded-md bg-customPurple px-3 py-2 text-sm font-medium text-white">Home</a>
                             <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-200 hover:bg-customPurple hover:text-white">Product</a>
                             <a href="franchise" class="rounded-md px-3 py-2 text-sm font-medium text-gray-200 hover:bg-customPurple hover:text-white">Franchise</a>
                             <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-200 hover:bg-customPurple hover:text-white">Contact</a>

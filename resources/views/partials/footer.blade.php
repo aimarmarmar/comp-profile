@@ -1,4 +1,4 @@
-<footer class="px-10 w-full h-auto bg-customPurple static bottom-0 text-center text-gray-50 p-4">
+<footer class="px-10 w-full h-auto bg-customPink static bottom-0 text-center text-gray-50 p-4">
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         <aside class="flex flex-col items-center">
             <svg
@@ -30,7 +30,7 @@
                 <!-- Twitter -->
                 <a href="https://twitter.com" target="_blank" aria-label="Twitter" class="hover:text-gray-200">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="text-white" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
-                        <path d="M 12.5 6 C 8.9280619 6 6 8.9280619 6 12.5 L 6 35.5 C 6 39.071938 8.9280619 42 12.5 42 L 35.5 42 C 39.071938 42 42 39.071938 42 35.5 L 42 12.5 C 42 8.9280619 39.071938 6 35.5 6 L 12.5 6 z M 12.5 9 L 35.5 9 C 37.450062 9 39 10.549938 39 12.5 L 39 35.5 C 39 37.450062 37.450062 39 35.5 39 L 12.5 39 C 10.549938 39 9 37.450062 9 35.5 L 9 12.5 C 9 10.549938 10.549938 9 12.5 9 z M 13.828125 14 L 21.564453 25.056641 L 13.822266 34 L 15.865234 34 L 22.46875 26.351562 L 27.820312 34 L 34.257812 34 L 26.025391 22.234375 L 33.136719 14 L 31.136719 14 L 25.123047 20.943359 L 20.265625 14 L 13.828125 14 z M 16.935547 15.695312 L 19.498047 15.695312 L 31.150391 32.304688 L 28.587891 32.304688 L 16.935547 15.695312 z"></path>
+                        <path d="M 11.5 6 C 8.4802259 6 6 8.4802259 6 11.5 L 6 36.5 C 6 39.519774 8.4802259 42 11.5 42 L 36.5 42 C 39.519774 42 42 39.519774 42 36.5 L 42 11.5 C 42 8.4802259 39.519774 6 36.5 6 L 11.5 6 z M 11.5 9 L 36.5 9 C 37.898226 9 39 10.101774 39 11.5 L 39 36.5 C 39 37.898226 37.898226 39 36.5 39 L 11.5 39 C 10.101774 39 9 37.898226 9 36.5 L 9 11.5 C 9 10.101774 10.101774 9 11.5 9 z M 26.435547 13.023438 A 1.50015 1.50015 0 0 0 25 14.5 L 25 28 C 25 30.227598 23.227598 32 21 32 C 18.772402 32 17 30.227598 17 28 C 17 25.772402 18.772402 24 21 24 A 1.50015 1.50015 0 1 0 21 21 C 17.151598 21 14 24.151598 14 28 C 14 31.848402 17.151598 35 21 35 C 24.848402 35 28 31.848402 28 28 L 28 20.335938 C 29.268121 21.316987 30.78243 22 32.5 22 A 1.50015 1.50015 0 1 0 32.5 19 C 29.996501 19 28 17.003499 28 14.5 A 1.50015 1.50015 0 0 0 26.435547 13.023438 z"></path>
                     </svg>
                 </a>
                 <!-- Instagram -->
@@ -45,7 +45,6 @@
             <h6 class="footer-title text-white text-sm mb-1">Services</h6>
             <ul class="space-y-0.5">
                 <li><a class="link link-hover text-white text-sm">Kemitraan</a></li>
-                <li><a class="link link-hover text-white text-sm">Produk</a></li>
                 <li><a class="link link-hover text-white text-sm">Alamat</a></li>
                 <li><a class="link link-hover text-white text-sm">Dukungan</a></li>
             </ul>
@@ -55,8 +54,7 @@
             <ul class="space-y-0.5">
                 <li><a class="link link-hover text-white text-sm">About us</a></li>
                 <li><a class="link link-hover text-white text-sm">Contact</a></li>
-                <li><a class="link link-hover text-white text-sm">Jobs</a></li>
-                <li><a class="link link-hover text-white text-sm">Press kit</a></li>
+                <li><a class="link link-hover text-white text-sm">Careers</a></li>
             </ul>
         </nav>
         <nav>
