@@ -41,14 +41,19 @@
     </section>
 
     <!-- Products/Services Section -->
-    <section class="py-12 bg-gray-100" x-data="{ currentIndex: 0, products: ['noodle', 'soup', 'salad', 'burger', 'pizza', 'aimar'], visibleProducts: 3 }">
+    <section class="py-12 bg-gray-100" x-data="{
+        currentIndex: 0,
+        products: ['noodle', 'soup', 'salad', 'burger', 'pizza', 'aimar'],
+        visibleProducts: 1
+    }" x-init="visibleProducts = updateVisibleProducts();
+    window.addEventListener('resize', () => visibleProducts = updateVisibleProducts())">
         <div class="container mx-auto px-6 text-center">
             <h2 class="text-4xl font-bold mb-4 text-customPurple">Our Products</h2>
 
             <!-- Slider Container -->
             <div class="relative flex flex-col items-center">
                 <!-- Grid for Products, adjusted with Flexbox to center -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-center">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center">
 
                     <!-- Products -->
                     <template x-for="(product, index) in products.slice(currentIndex, currentIndex + visibleProducts)"
@@ -132,25 +137,47 @@
                 case 'pizza':
                     return 'Delicious cheesy pizza for a perfect treat.';
                 case 'aimar':
-                    return 'Aimar kocak';
+                    return 'Aimar kocak kocak kocak kocak';
                 default:
                     return 'No description available.';
             }
         }
+
+        function updateVisibleProducts() {
+            const width = window.innerWidth;
+            if (width < 640) { // small screens
+                return 1;
+            } else if (width < 768) { // medium screens
+                return 2;
+            } else if (width < 1024) { // large screens
+                return 3;
+            } else { // extra large screens
+                return 3; // can adjust based on preference
+            }
+        }
     </script>
 
-    <!-- Franchise Information Section -->
-    <section class="py-12 bg-white text-center">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold mb-4 text-customPurple">Franchising Opportunities</h2>
-            <p class="text-lg text-gray-600 mb-6">Join the Dmiehan family and start your own franchise today. Affordable
-                packages for middle to low-income individuals looking to start their own business.</p>
-            <button
-                class="rounded-full bg-customPurple px-8 py-3 font-semibold text-white hover:bg-purple-800 transition duration-150 ease-in-out"
-                onclick="window.location.href='{{ url('/franchise') }}'">
-                Learn More
-            </button>
 
+    <!-- Franchise Information Section -->
+    <section class="py-12 bg-customBlue bg-cover bg-center text-white">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <!-- Image or Background on the Left Side -->
+            <div class="w-full md:w-1/2 mb-8 md:mb-0">
+                <img src="/images/logo alternatif.png" alt="Franchise Opportunity"
+                    class="w-full h-auto object-cover rounded-lg shadow-lg">
+            </div>
+
+            <!-- Text and Button on the Right Side -->
+            <div class="w-full md:w-1/2 md:pl-20 text-left">
+                <h2 class="text-4xl font-bold mb-4">Franchising Opportunities</h2>
+                <p class="text-lg mb-6">Join the Dmiehan family and start your own franchise today. Affordable packages
+                    for middle to low-income individuals looking to start their own business.</p>
+                <button
+                    class="rounded-full bg-customPurple px-8 py-3 font-semibold text-white hover:bg-purple-800 transition duration-150 ease-in-out"
+                    onclick="window.location.href='{{ url('/franchise') }}'">
+                    Learn More
+                </button>
+            </div>
         </div>
     </section>
 
